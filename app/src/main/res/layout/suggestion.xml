@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayout"
+        style="@style/App.TextInputLayout"
+        android:layout_width="match_parent"
+        app:hintTextAppearance="@style/TextLabel"
+        android:layout_margin="8dp"
+        android:hint="Search With Google Map"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:textColor="@color/black"
+            android:imeOptions="actionSearch"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.mapbox.search.ui.view.SearchBottomSheetView
+        android:id="@+id/searchSheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

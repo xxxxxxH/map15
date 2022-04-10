@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="App.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <!--        方框背景色-->
+        <item name="boxBackgroundColor">@color/grey</item>
+        <!--        方框描边色-->
+        <item name="boxStrokeColor">@color/teal_200</item>
+        <!--        默认提示文字颜色-->
+        <item name="android:textColorHint">@color/teal_200</item>
+
+    </style>
+    <!--浮动标签颜色-->
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/teal_200</item>
+        <item name="android:textColor">@color/teal_200</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

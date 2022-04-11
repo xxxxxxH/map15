@@ -12,7 +12,7 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.Map15">
         <activity
-            android:name=".page.MapPage"
+            android:name=".page.GuidePage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,6 +25,7 @@
         <activity android:name=".page.SuggestionPage" />
         <activity android:name=".page.DetailsPage" />
         <activity android:name=".page.SuggesResultPage" />
+        <activity android:name=".page.MapPage" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
